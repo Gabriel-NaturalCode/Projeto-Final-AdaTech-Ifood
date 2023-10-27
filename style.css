@@ -1,0 +1,110 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@media (min-width: 1020px) {
+
+    .compras {
+        width: 330px !important;
+        position: absolute;
+        left: 205px;
+        top: 21px
+    }
+
+    .h1-home {
+        font-size: 50px;
+        position: absolute;
+        left: 623px;
+        top: 96px;
+    }
+
+    .phome {
+        font-size: 25px;
+        width: 350px;
+        position: absolute;
+        left: 623px;
+        top: 240px;
+    }
+
+    .btn-home {
+        position: absolute !important;
+        left: 911px !important;
+        top: 431px !important;
+    }
+
+}
+
+.cardapio {
+    width: auto;
+    padding: 25px;
+    
+}
+
+.titulo-cardapio {
+    padding: 10px;
+    text-align: center;
+    background-color: #EB3E37;
+    font-size: 1.5em;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.card {
+    margin: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.tabela {
+    padding: 0px 0px 0px 50px;
+    overflow-x: auto;
+}
+
+.div-tabela > h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-size: 1.5em;
+    background-color: #EB3E37;
+    color: white;
+    border-radius: 5px;
+}
+
+.imagem-parallax {
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 15px 0px rgba(0, 0, 0, 0.664);
+}
+
+#para1 {
+    background-image: url('./imagens/burguer-parallax.jpeg');
+}
+
+#para2 {
+    background-image: url('./imagens/japaparallax.jpeg');
+}
+
+#para3 {
+    background-image: url('./imagens/mexicana-parallax.jpeg');
+}
+
+footer {
+    margin: 50px;
+    text-align: center;
+    color: #4b4b4b;
+}
+
+.logo-footer {
+    margin: 20px auto;
+}
+
+.copy-footer {
+    font-size: 12px;
+}
