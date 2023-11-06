@@ -94,15 +94,14 @@ html {
 }
 
 footer {
-    margin: 50px;
+    margin-top: 50px;
+    padding: 10px;
     text-align: center;
-    color: #4b4b4b;
-}
-
-.logo-footer {
-    margin: 20px auto;
+    color: white;
+    background-color: #EB3E37;
 }
 
 .copy-footer {
+    margin: 10px;
     font-size: 12px;
 }

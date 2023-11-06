@@ -36,6 +36,7 @@
           </div>
       </nav>
     </header>
+    <main>
     <section class="container-fluid p-1" style="background-image: linear-gradient(to bottom, white 90%, #eb3d374f); height: 102vh;" id="home">
       <div class="container" style="position: absolute; top: 16%;">
         <h1 class="h1-home">O que você precisa hoje?</h1>
@@ -119,70 +120,70 @@
               <th scope="row">1</th>
               <td>Raízes Brasileiras Bistrô</td>
               <td><i>Brasileira</i></td>
-              <td>10 / 10 ⭐</td>
+              <td>5 ★</td>
               <td>"Uma experiência culinária incrível! Os sabores autênticos brilham em cada prato."</td>
             </tr>
             <tr>
               <th scope="row">2</th>
               <td>Pérolas do Mediterrâneo </td>
               <td><i>Árabe</i></td>
-              <td>10 / 10 ⭐</td>
+              <td>5 ★</td>
               <td>"O aroma e o sabor dos pratos no Pérolas do Mediterrâneo são de tirar o fôlego."</td>
             </tr>
             <tr>
               <th scope="row">3</th>
               <td>Izakaya Sol Nascente</td>
               <td><i>Japonesa</i></td>
-              <td>10 / 10 ⭐</td>
+              <td>5 ★</td>
               <td>"A experiência do Izakaya Sol Nascente é como uma viagem ao Japão."</td>
             </tr>
             <tr>
               <th scope="row">4</th>
               <td>Horta Encantada</td>
               <td><i>Vegetariana</i></td>
-              <td>10 / 10 ⭐</td>
+              <td>5 ★</td>
               <td>"A Horta Encantada é um paraíso para os amantes de vegetais!" </td>
             </tr>
             <tr>
               <th scope="row">5</th>
               <td>Le Bistrot Parisien</td>
               <td><i>Francesa</i></td>
-              <td>10 / 10 ⭐</td>
+              <td>5 ★</td>
               <td>"Este restaurante é uma verdadeira joia parisiense. A comida é requintada e autêntica"</td>
             </tr>
             <tr>
               <th scope="row">6</th>
               <td>Dragão Vermelho</td>
               <td><i>Chinesa</i></td>
-              <td>10 / 10 ⭐</td>
+              <td>5 ★</td>
               <td>"Recomendo vivamente o Dragão Vermelho para os amantes de comida chinesa."</td>
             </tr>
             <tr>
               <th scope="row">7</th>
               <td>Açúcar e Magia Doces Finos</td>
               <td><i>Confeitaria</i></td>
-              <td>10 / 10 ⭐</td>
+              <td>5 ★</td>
               <td>"Os doces são verdadeiramente mágicos. Cada mordida é inesquecível."</td>
             </tr>
             <tr>
               <th scope="row">8</th>
               <td>Paella Valenciana</td>
               <td><i>Espanhola</i></td>
-              <td>10 / 10 ⭐</td>
+              <td>5 ★</td>
               <td>"A Paella Valenciana é uma verdadeira embaixada da culinária espanhola."</td>
             </tr>
             <tr>
               <th scope="row">9</th>
               <td>Taco Loco Cocina Mexicana</td>
               <td><i>Mexicana</i></td>
-              <td>10 / 10 ⭐</td>
+              <td>5 ★</td>
               <td>"Os sabores picantes e autênticos do México são os destaques do Taco Loco."</td>
             </tr>
             <tr>
               <th scope="row">10</th>
               <td>Sabores do Nordeste</td>
               <td><i>Nordestina</i></td>
-              <td>10 / 10 ⭐</td>
+              <td>5 ★</td>
               <td>"Uma verdadeira celebração da culinária nordestina."</td>
             </tr>
           </tbody>
@@ -197,7 +198,7 @@
             <p class="lead">Avalie nosso atendimento para ganhar descontos nas próximas compras.</p>
           </div>
         </div>
-        <form onsubmit="onSubmit()">
+        <form onsubmit="onSubmit()" autocomplete="off">
           <div class="mb-3 container">
             <label for="exampleInputName" class="form-label text-form">Nome</label>
             <input type="text" class="form-control" id="exampleInputName" placeholder="Insira seu nome" required>
@@ -238,24 +239,22 @@
         </a>
       </div>
     </section>
-</main>
-<hr>
-<footer>
-    <div class="logo-footer">
-      <img src="imagens/iconeifood.png" alt="Ícone logo Ifood" width="60px">
-      <p>
-        <i>Suporte ao cliente excluviso via chat no app. Conte com a gente!</i>
-      </p>
-    </div>
-    <div class="copy-footer">
-      <p>
-        © Copyright 2021 - iFood - Todos os direitos reservados iFood com Agência de Restaurantes Online S.A.
-      </p>
-      <p>
-        CNPJ 14.380.200/0001-21 / Avenida dos Autonomistas, nº 1496, Vila Yara, Osasco/SP - CEP 06.020-902
-      </p>
-    </div>
-</footer>
+    </main>
+
+    <footer>
+        <div class="logo-footer">
+          <img src="imagens/iconeifood.png" alt="Ícone logo Ifood" width="60px">
+          <p>
+            <i>Suporte ao cliente excluviso via chat no app. Conte com a gente!</i>
+          </p>
+        </div>
+        <div class="copy-footer">
+            <span>
+              © Copyright 2021 - iFood - Todos os direitos reservados iFood com Agência de Restaurantes Online S.A.
+              CNPJ 14.380.200/0001-21 / Avenida dos Autonomistas, nº 1496, Vila Yara, Osasco/SP - CEP 06.020-902
+            </span>
+        </div>
+    </footer>
     <script>
       function onSubmit () {
         alert('Feedback enviado com sucesso!')
