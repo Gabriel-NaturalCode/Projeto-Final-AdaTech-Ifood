@@ -22,13 +22,13 @@ Requisitos:
        - Nome do prato.
        - Uma breve descrição do prato.
    5. Tabela de restaurantes: A tabela deve conter os seguintes dados:
-       1. Nome
-       2. Nota
-       3. Breve descrição
+       I Nome
+       II Nota
+       III Breve descrição
    6. **Formulário de Contato:** Crie um formulário de contato que permita aos visitantes enviar perguntas, sugestões e feedback sobre a nova plataforma, todos os dados devem ser obrigatórios. O formulário deve incluir campos:
-       1. Nome.
-       2. E-mail.
-       3. Mensagem.
+       I Nome.
+       II E-mail.
+       III Mensagem.
        
        Ao enviar o formulário com sucesso, deve exibir um alert com a mensagem "Feedback enviado com sucesso!”.
     
